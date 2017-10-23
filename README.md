@@ -30,5 +30,8 @@ In this section, we'll create a web app using Visual Studio and deploy that appl
 7. After the app comes up, make a change to the *__Views/Home/Index__* view and refresh the page to see the update you just made
 8. Close the browser and go back to Visual Studio
 9. In the Solution Explorer, right click on the application and click __*Publish...*__
-10. On the publish screen, select "__*Microsoft Azure App Service*__". Make sure the __*Create New* radio button is selected and click __*Publish*__
+10. On the publish screen, select "__*Microsoft Azure App Service*__". Make sure the __*Create New*__ radio button is selected and click __*Publish*__
+11. Now you should see the __*Create App Service*__ window. On that screen, make sure you are signed into Visual Studio with the same account that you signed up for your Azure Account with. You can either enter custom names for *__Application Name__*, *__Resource Group__* and *__App Service Plan__*, or leave the default values.
+12. Click *__Create__*
+13. 
 
