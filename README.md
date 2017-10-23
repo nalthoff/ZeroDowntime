@@ -30,4 +30,4 @@ In this section, we'll create a web app using Visual Studio and deploy that appl
 
 ### Congrats! you just deployed your web app into Azure!
 
-Next up: Creating a CI/CD Pipeline
+Next up: [Simple CI/CD Pipeline](/CICD.md)
