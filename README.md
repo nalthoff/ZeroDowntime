@@ -16,5 +16,5 @@ Before we get started with CI/CD, we need to create a new team in VSTS.
 In this section, we'll create a web app using Visual Studio and deploy that application from your local machine to Azure directly from Visual Studio
 1. Open Visual Studio
 2. Click File -> New -> Project
-3. Select *.NET CORE* from the left side and *ASP.NET Core Web Application* from the middle. At the bottom name your application whatever you like (HelloWorld, ZeroDownTime, etc). Check the checkbox next to "Create Directory for solution" and for "Create new Git Repository" and click "OK"
+3. Select __*.NET CORE*__ from the left side and __*ASP.NET Core Web Application*__ from the middle. At the bottom name your application whatever you like (HelloWorld, ZeroDownTime, etc). Check the checkbox next to __*Create Directory for solution*__ and for __*Create new Git Repository*__ and click __*OK*__
 
