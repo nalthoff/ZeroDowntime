@@ -28,4 +28,12 @@ Open your git command line (Git Bash Shell / Terminal)
 ## Configure Continuous Delivery
 Now that we have the code in VS, we can set up an automated CI/CD Pipeline to push this code to the Web Application we created [in the first part](/README.md).
 
-
+1. Go to <a href="https://portal.azure.com" target="_blank">https://portal.azure.com</a> and login with the same user that you are logged into Visual Studio with.
+2. Navigate to the resource group that you created in the first step. You should see your App Service and App Service plan in this resource group. __*Note:*__ *If you do not see the app Service and App Service Plan, then change the directory that you are in to the correct directory by clicking on your user at the top right and selecting the correct one.*
+3. Click on the App Service that you created. Once that blade comes up, click on the __Continuous Delivery (Preview)__ tab.
+4. In that blade, click the __Configure__ button.
+5. In the __Configure Continuous Delivery__ blade
+    - Click the __Soure Code__ tab and select the Project, repository, and branch that were created above. __*Note:*__ The repository will match the name of the project, and the branch will be "master"
+    - Click the __Configure Continuous Delivery__ tab and select __ASP.NET Core__ in the dropdown and click __OK__
+    - No need to change the "Test" or "Configure Deployment" tabs for now.
+6. Click __OK__ in the Continuous Delivery (Preview) blade. 
