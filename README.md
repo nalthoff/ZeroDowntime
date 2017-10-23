@@ -10,6 +10,7 @@ Hands on Lab for Zero Downtime
 - Azure Subscription [Create a free account](https://azure.microsoft.com/en-us/free/)
 - VSTS Account [Sign up](https://docs.microsoft.com/en-us/vsts/accounts/create-account-msa-or-work-student)
 - Visual Studio (2017 Preferred)
+- Git installed [Windows](https://git-scm.com/download/win) / [Mac](https://git-scm.com/download/mac)
 
 ## Deploying to Azure Web Apps
 In this section, we'll create a web app using Visual Studio and deploy that application from your local machine to Azure directly from Visual Studio
