@@ -2,8 +2,8 @@
 In this section, we'll push our code to Visual Studio Team Services (VSTS) and set up a CI/CD Pipeline
 
 ## Table of Contents
-- [Create New team in VSTS](Create-New-team-in-VSTS)
-- [Push your code to VSTS](Push-your-code-to-VSTS)
+- [Create New team in VSTS](#Create-New-team-in-VSTS)
+- [Push your code to VSTS](#Push-your-code-to-VSTS)
 
 ## Create New team in VSTS
 Before we get started with CI/CD, we need to create a new team in VSTS.
