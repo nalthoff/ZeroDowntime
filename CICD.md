@@ -63,3 +63,4 @@ Now that we've got the CI/CD Build pipeline configured, we'll change some code a
 
 ### Congrats! You've just set up an automated CI/CD Pipeline!
 
+Next up: [Advanced CI/CD with Deployment slots and Zero Downtime](/deploymentslots.md)
