@@ -58,4 +58,8 @@ Now that we've got the CI/CD Build pipeline configured, we'll change some code a
 3. Click __Sync__ and __push__. You can push your code via Git shell if you prefer as well.
 4. Go back to VSTS and select __Build and Release -> Builds__. You should see that the build has a status of "in progress". It will take a few minutes for that to complete.
 5. Once that completes, go to the __releases__ tab. You should see a new release that is in process. That release is pushing the code to your app Service created in the first step.
+6. Once the release finishes, navigate to your App Service URL and your most recent changes should be there.
+
+
+### Congrats! You've just set up an automated CI/CD Pipeline!
 
