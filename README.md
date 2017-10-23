@@ -25,3 +25,10 @@ In this section, we'll create a web app using Visual Studio and deploy that appl
 2. Click File -> New -> Project
 3. Select __*.NET CORE*__ from the left side and __*ASP.NET Core Web Application*__ from the middle. At the bottom name your application whatever you like (HelloWorld, ZeroDownTime, etc). Check the checkbox next to __*Create Directory for solution*__ and for __*Create new Git Repository*__ and click __*OK*__
 4. On the __*New ASP.NET Core Web Application*__ Screen, select __*Web Application (Model-View-Controller)*__ and click __*OK*__
+5. In the toolbar change the startup type (next to the "play" button) from *__IIS Express__* to the name of your project. For example, if your project was named *__ZeroDowntimeApp__* that is what you would see. This will run the website as a self service website and not in IIS.
+6. Click the Start / Debug button to launch the App
+7. After the app comes up, make a change to the *__Views/Home/Index__* view and refresh the page to see the update you just made
+8. Close the browser and go back to Visual Studio
+9. In the Solution Explorer, right click on the application and click __*Publish...*__
+10. On the publish screen, select "__*Microsoft Azure App Service*__". Make sure the __*Create New* radio button is selected and click __*Publish*__
+
