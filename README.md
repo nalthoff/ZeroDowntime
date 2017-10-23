@@ -3,13 +3,14 @@ Hands on Lab for Zero Downtime
 
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
+* [Create New team in VSTS](#NewVSTS)
 
 ## Prerequisites <a name="Prerequisites"></a>
 - Azure Subscription [Create a free account](https://azure.microsoft.com/en-us/free/)
 - VSTS Account [Sign up](https://docs.microsoft.com/en-us/vsts/accounts/create-account-msa-or-work-student)
 - Visual Studio (2017 Preferred)
 
-## Create New team in VSTS
+## Create New team in VSTS <a name="NewVSTS"></a>
 Before we get started with CI/CD, we need to create a new team in VSTS.
 
 1. Go to your VSTS account (example: https://__username__.visualstudio.com/_projects)
