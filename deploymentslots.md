@@ -3,8 +3,10 @@ In this section will be updating the basic CI/CD Deployment to deploy to a deplo
 
 ## Table of Contents
 
-- TBD
-- TBD
+- [Create a deployment slot](#create-a-deployment-slot)
+- [Deploy to a deployment slot](#deploy-to-a-deployment-slot)
+- [Make a change and check the deployment slot](#make-a-change-and-check-the-deployment-slot)
+- [Switch slots](#switch-slots)
 
 ## Create a deployment slot
 We need to create a deployment slot in the existing App Service
