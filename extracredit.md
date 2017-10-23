@@ -10,16 +10,23 @@ If you are up for it, get a Kubernetes cluster up and running, dockerize your ap
 
 ## Create a kubernetes cluster via ACS
 
-az group create --name k8s --location southcentralus
-az acs create --orchestrator-type=kubernetes \
-    --resource-group k8s \
-    --name=mywinK8s \
-    --generate-ssh-keys \
-    --windows \
-    --admin-password=P@ssword123!
+run the following commands in a bash shell to create a kubernetes cluster in Azure
+```
 
-az acs kubernetes get-credentials --resource-group=k8s --name=mywink8s
-az group delete -n k8s -y --no-wait
+az login
+
+rgname=zerodowntime_acs
+acs_name=zerodowntimeacs
+az group create --name $rgname --location southcentralus
+
+az acs create --orchestrator-type=kubernetes \
+    --resource-group $rgname \
+    --name=$acs_name \
+    --generate-ssh-keys \
+	--admin-password=P@ssword123!
+
+az acs kubernetes get-credentials --resource-group=$rgname --name=$acs_nam
+```
 
 ## Push your code to docker hub
 
