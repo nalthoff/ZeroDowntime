@@ -5,6 +5,7 @@ Hands on Lab for Zero Downtime
 * [Prerequisites](#prerequisites)
 * [Deploying to Azure Web Apps](#deploying-to-azure-web-apps)
 * [Simple CI/CD Pipeline](/CICD.md)
+* [Advanced CI/CD with ZERO downtime](/deploymentslots.md)
 
 ## Prerequisites
 - Azure Subscription [Create a free account](https://azure.microsoft.com/en-us/free/)
