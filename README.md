@@ -5,7 +5,7 @@ Hands on Lab for Zero Downtime
 * [Prerequisites](/prereq.md)
 * [Deploying to Azure Web Apps](#deploying-to-azure-web-apps)
 * [Simple CI/CD Pipeline](/CICD.md)
-* [Advanced CI/CD with ZERO downtime](/deploymentslots.md)
+* [Advanced CI/CD with Deployment slots and Zero Downtime](/deploymentslots.md)
 
 ## Deploying to Azure Web Apps
 In this section, we'll create a web app using Visual Studio and deploy that application from your local machine to Azure directly from Visual Studio
