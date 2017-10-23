@@ -2,9 +2,9 @@
 Hands on Lab for Zero Downtime
 
 ## Table of Contents
-* [Prerequisites](#prerequisites-)
-* [Create New team in VSTS](#create-new-team-in-vsts-)
-* [Deploying to Azure Web Apps](#deploying-to-azure-web-apps-)
+* [Prerequisites](#prerequisites)
+* [Create New team in VSTS](#create-new-team-in-vsts)
+* [Deploying to Azure Web Apps](#deploying-to-azure-web-apps)
 
 ## Prerequisites
 - Azure Subscription [Create a free account](https://azure.microsoft.com/en-us/free/)
@@ -18,7 +18,7 @@ Before we get started with CI/CD, we need to create a new team in VSTS.
 2. Click the *"New Project"* button at the top right
 3. On the *"Create new Project"* screen, enter a name for the project. Select *"Git"* for version control and click *"Create"*
 
-## Deploying to Azure Web Apps <a name="DeployWebApp"></a>
+## Deploying to Azure Web Apps
 In this section, we'll create a web app using Visual Studio and deploy that application from your local machine to Azure directly from Visual Studio
 
 1. Open Visual Studio
