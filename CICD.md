@@ -36,4 +36,24 @@ Now that we have the code in VS, we can set up an automated CI/CD Pipeline to pu
     - Click the __Soure Code__ tab and select the Project, repository, and branch that were created above. __*Note:*__ The repository will match the name of the project, and the branch will be "master"
     - Click the __Configure Continuous Delivery__ tab and select __ASP.NET Core__ in the dropdown and click __OK__
     - No need to change the "Test" or "Configure Deployment" tabs for now.
-6. Click __OK__ in the Continuous Delivery (Preview) blade. 
+6. Click __OK__ in the Continuous Delivery (Preview) blade.
+
+Azure is now setting up a pre-configured CI/CD Pipeline that will be kicked off when new code is pushed to the repo
+
+## Check out the new CI/CD Pipeline
+
+Lets go take a look at the build / release that was set up
+1. In VSTS, navigate to your project and click on __Build and Release --> Builds__. You should see a build with an auto generated name. Click on the build to see the details. 
+    - Click "Edit" near the top right to view the steps that were created. For a ASP.NET Core app, Azure will create the standard Restore/Build/Test/Publish steps.
+2. Click on __Releases__ in the sub navigation. You should see a release definition with an auto generated name. Click on the "..." next to the release definition and click __Edit__ to view the release.
+    - Azure will automatically create a build with a single Environment and with a single task that deploys the website.
+
+## Push new changes to VSTS
+
+Now that we've got the CI/CD Build pipeline configured, we'll change some code and push the changes to VSTS, which should kick off a build
+1. Go back to Visual Studio and make a change to the __Views/Home/Index__ view
+2. Go to __Team Explorer__, Switch to __Changes__, add a comment and commit the code change.
+3. Click __Sync__ and __push__. You can push your code via Git shell if you prefer as well.
+4. Go back to VSTS and select __Build and Release -> Builds__. You should see that the build has a status of "in progress". It will take a few minutes for that to complete.
+5. Once that completes, go to the __releases__ tab. You should see a new release that is in process. That release is pushing the code to your app Service created in the first step.
+
