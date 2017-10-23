@@ -5,6 +5,13 @@ If you are up for it, get a Kubernetes cluster up and running, dockerize your ap
 ## Prerequisites
 - [Docker](https://www.docker.com/get-docker)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- Azure CLI (Version 2.0.14-2)
+
+```
+sudo apt-key adv --keyserver packages.microsoft.com --recv-keys 417A0893
+sudo apt-get install apt-transport-https
+sudo apt-get update && sudo apt-get install azure-cli=2.0.14-2
+```
 
 ## Dockerize your app
 
