@@ -5,6 +5,8 @@ In this section, we'll push our code to Visual Studio Team Services (VSTS) and s
 - [Create New team in VSTS](#create-new-team-in-vsts)
 - [Push your code to VSTS](#push-your-code-to-vsts)
 - [Configure Continuous Delivery](#configure-continuous-delivery)
+- [Check out the new CI/CD Pipeline](check-out-the-new-cicd-pipeline)
+- [Push new changes to VSTS](check-out-the-new-cicd-pipeline)
 
 ## Create New team in VSTS
 Before we get started with CI/CD, we need to create a new team in VSTS.
