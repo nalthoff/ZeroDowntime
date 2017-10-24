@@ -45,3 +45,5 @@ Azure allows you to easily / quickly switch the slots.
 5. Go back and fresh the "production" and "staging" sites. Notice that they have swapped content!
 
 ### Congrats! You've just created a zero downtime deployment! 
+
+Extra credit: Create a kubernetes cluster and deploy an app [extra credit](/extracredit.md)
